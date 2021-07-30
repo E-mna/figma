@@ -6,42 +6,339 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--  Bootsrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
+
+    <title>Figma</title>
     
 </head>
 <body>
 
+    <header>
+ <!-- la bar -->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow justify-content-end" >
+      <img src="figma.png" alt="logo-figma" style="width:30px" class="logo" > 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Design</a></li>
+              <li><a class="dropdown-item" href="#">Prototyping</a></li>
+              <li><a class="dropdown-item" href="#">Design systems</a></li>
+              <li><a class="dropdown-item" href="#">Downloads</a></li>
+            </ul>
+          </li> <nav class="my-2 my-md-0 mr-md-3"></nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Entreprise</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Overview</a></li>
+              <li><a class="dropdown-item" href="#">Customers</a></li>
+              <li><a class="dropdown-item" href="#">Contact Sales</a></li>
+            </ul>
+          </li> <nav class="my-2 my-md-0 mr-md-3"></nav>
+          <link rel="stylesheet" href="https://www.figma.com//">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.figma.com/pricing/">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Community</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Design</a></li>
+              <li><a class="dropdown-item" href="#">Prototyping</a></li>
+              <li><a class="dropdown-item" href="#">Design systems</a></li>
+              <li><a class="dropdown-item" href="#">Downloads</a></li>
+            </ul>
+          </li> <nav class="my-2 my-md-0 mr-md-3"></nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Company</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="#">Design</a></li>
+              <li><a class="dropdown-item" href="#">Prototyping</a></li>
+              <li><a class="dropdown-item" href="#">Design systems</a></li>
+              <li><a class="dropdown-item" href="#">Downloads</a></li>
+            </ul>
+          </li> <nav class="my-2 my-md-0 mr-md-3"></nav>
+           
+          <li class="nav-item">
+            <a class="nav-link active" href="#!">Log out</a>
+          </li>
+        </nav>
+        <a class="btn btn-outline-primary" href="#">Sign up</a> 
+      </div>
+    </header>
+     
+    <!-- block 1 avec image 1 -->
+    <section class="row featurette">
+      <div class="col-md-7">
+        <h3> <span class="text-muted">Prototyping features</span></h3>
+        <h2 class="featurette-heading">Prototype <br> while you <br> design, and <br> vice versa  </h2>
+        <p class="lead">Bring your ideas to life in animated prototypes. Test <br> concepts earlier and more often. Create a better <br> blueprint for development.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/image_1.png" alt="image_1" style="width: 500px; height: 500px;">
+
+      </div>
+    </section>
+ 
+               <hr class="featurette-divider">
+
+                <!-- block 2 avec video1 -->
+
+    <section class="row featurette">
+      <div class="col-md-7">
+         
+        <h2 class="featurette-heading">Create prototypes that <br> feel like the real <br> experience </h2>
+        <p class="lead">Turn your static design files into an interactive <br> experience—no coding required.</p>
+        <ul>
+          <li> <strong>Intuitive build:</strong>  Simply connect UI elements and <br> choose your interactions and animations.</li>
+          <li> <strong>Interactions:</strong>Define subtle interactions, like on click, while hovering, while pressing a button, and more.</li>
+          <li> <strong>Mobile-optimized:</strong>Details like device frames and momentum scrolling make your prototypes feel like the real experience.
+          </li>
+         </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <iframe src="images/video_1.mp4" frameborder="0"></iframe>
+
+      </div>
+    </section>
+ 
+    <hr class="featurette-divider">
 
 
+     <!-- block 3 avec video2 -->
 
+    <section class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Show, don’t tell your <br> interaction vision</h2>
+        <p class="lead">Take the guesswork out of development by spelling out <br> the interaction details you envision.</p>
+        <ul>
+          <li> <strong>Advanced transitions with Smart Animate:</strong> Automagically animate similar objects and create <br> detailed transitions.</li>
+          <li> <strong>Dynamic overlays:</strong> Create multiple layers of <br> interactive content overlays.</li>
+          <li> <strong>Animated GIFs:</strong> Use GIFs to represent motion designs, video elements, and subtle animations. </li>
+         </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <iframe src="images/video_2.mp4" frameborder="0"></iframe>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
+    </section>       
     
+    <hr class="featurette-divider">
+    
+
+                <!-- block 4 text-->
+       <section>
+         <h1>We run a really fast design <br> process. We’re constantly <br> building, testing, and iterating. <br> Being able to pull together a <br> prototype in Figma so quickly <br> and easily is massive for us.</h1>
+         <p> Beth Horne, Senior User Researcher at Bulb</p>
+       </section>
+
+       <hr class="featurette-divider">
+
+                 <!-- block 5 avec video3 -->
+
+
+         <section class="row featurette">
+          <div class="col-md-7">
+             
+            <h2 class="featurette-heading">Do it all in one single tool</h2>
+            <p class="lead">No more jumping between tools. Design, prototype, <br> share, and collect feedback all in Figma.</p>
+            <ul>
+              <li> <strong>All-in-one platform:</strong>Toggle between your design <br> file and live prototype. Design edits appear <br> instantly in your prototype.</li>
+              <li> <strong>Shareable prototype:</strong>Share a link to your <br> prototype. View it anywhere with Internet.</li>
+              <li> <strong>Embedded commenting:</strong>Comment in a <br> prototype. They carry over into the design file—so <br> nothing gets lost.</li>
+             </ul>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <iframe src="images/video_3.mp4" frameborder="0"></iframe>
+    
+          </div>
+         </section>
+     
+        <hr class="featurette-divider">
+    
+   <!--block 6 text -->
+         <section>
+
+          <h1>Other ways to use Figma prototypes</h1>
+          <div class="fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+            <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"></path></svg>
+            Observe a test subject in <br> research sessions
+          </div>
+          <div class="fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+            <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"></path></svg>
+            Create presentation slides to <br> pitch your work
+          </div>
+          <div class="fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+            <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"></path></svg>
+            Interact with live prototypes in <br> Notion or Dropbox
+
+          </div>
+          <div class="fs-2 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-asterisk" viewBox="0 0 16 16">
+            <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"></path></svg>
+            Integrate with third-party <br> prototyping tools
+          </div>
+         </section>
+
+         <hr class="featurette-divider">
+
+
+<!--block 7 ---- trois images-->
+
+ <section>
+  <main class="main pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <!--image 1-->
+          <article class="card mb-4">
+            <a href="https://www.figma.com/design/">
+              <img class="card-img" src="images/image_2.png" alt="image2" />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Design </p>
+            </div>
+            <a href="https://www.figma.com/design/">Learn more</a>
+             
+          </article><!-- /.card -->
+        </div>
+        <!--image 2-->
+        <div class="col-md-3">
+ 
+          <article class="card mb-4">
+            <a href="https://www.figma.com/design-systems/">
+              <img class="card-img" src="images/image_3.png" alt="" />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Design Systems</p>
+            </div>
+            <a href="https://www.figma.com/design/">Learn more</a>
+          </article><!-- /.card -->
+          
+        </div>
+
+        
+          <!-- image 3  -->
+        <div class="col-md-3">
+          
+          <article class="card mb-4">
+            <a href="https://www.figma.com/collaboration/">
+              <img class="card-img" src="images/image_4.png" alt="" />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Colaboration</p>
+            </div>
+            <a href="https://www.figma.com/design/">Learn more</a>
+          </article><!-- /.card --> 
+        </div>
+      </div>
+    </div>
+  </main>
+ </section>
+
+
+ <!--block 8 ---- réseau-->
+
+ <footer class="bd-footer py-5 mt-5 bg-light">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 mb-3">
+        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+           
+          <span class="fs-5">Figma</span>
+        </a>
+        <ul class="list-unstyled">
+          <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg><li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Twitter</a></li>
+        </div>
+          <li class="mb-2"><a href="https://github.com/sponsors/twbs">Youtube</a></li>
+          <li class="mb-2"><a href="https://opencollective.com/bootstrap">Instagram</a></li>
+          <li class="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">facebook</a></li>
+          <li class="mb-2"><a href="/">Manage Cookies</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+        <h5>Use Cases</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="/">UI design</a></li>
+          <li class="mb-2"><a href="/docs/5.0/">UX design</a></li>
+          <li class="mb-2"><a href="/docs/5.0/examples/">Graphic design</a></li>
+          <li class="mb-2"><a href="https://opencollective.com/bootstrap">Wireframing</a></li>
+          <li class="mb-2"><a href="https://blog.getbootstrap.com/">Diagramming</a></li>
+          <li class="mb-2"><a href="/docs/5.0/examples/">Brainstorming</a></li>
+          <li class="mb-2"><a href="https://opencollective.com/bootstrap">Templates</a></li>
+          <li class="mb-2"><a href="https://blog.getbootstrap.com/">Remote design</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Explore</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="/docs/5.0/getting-started/">Design features</a></li>
+          <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">Prototyping features</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/webpack/">Design systems features</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">Collaboration features</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/">FigJam</a></li>
+          <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">Pricing</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/webpack/">Figma Organization</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">Students and educators</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/">Customers</a></li>
+          <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">Security</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/webpack/">Integrations</a></li>
+          <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Resources</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Blog</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Best practices</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/icons">Support</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/rfs">Developers</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">Learn design</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Downloads</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">What's new</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/icons">Releases</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/rfs">Careers</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">About us</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/icons">Agency partners</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/rfs">Privacy</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">Status</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Compare</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Sketch</a></li>
+          <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Adobe XD</a></li>
+          <li class="mb-2"><a href="https://github.com/sponsors/twbs">Invision Studio</a></li>
+          <li class="mb-2"><a href="https://opencollective.com/bootstrap">Framer</a></li>
+          <li class="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">Design on Windows</a></li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+  
+
+  
+
+</footer>
+
+
+
+
+
+
+
+ <!--  Bootsrap jquery sript -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <!--  Bootsrap script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </body>
 </html>

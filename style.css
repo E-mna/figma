@@ -1,0 +1,17 @@
+
+header{
+    list-style: none; /*enlever les points de la liste */
+}
+
+
+ /* survolle : affiche la liste */
+ .dropdown:hover .dropdown-menu {
+display: block; }
+
+/* Mettre le logo a gauche*/
+.logo{
+
+
+}
+
+ 
