@@ -16,11 +16,11 @@
     
 </head>
 <body>
-
+  <div class="contrainer-fluid m-auto">  
     <header>
  <!-- la bar -->
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow justify-content-end" >
-      <img src="figma.png" alt="logo-figma" style="width:30px" class="logo" > 
+      <img src="figma.png" alt="logo-figma" style="width:30px" id="logo" > 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown03">
@@ -68,26 +68,27 @@
         <a class="btn btn-outline-primary" href="#">Sign up</a> 
       </div>
     </header>
-     
+ 
     <!-- block 1 avec image 1 -->
-    <section class="row featurette">
-      <div class="col-md-7">
+    <section  id="block1">
+       <div class="row container  m-auto">
+      <div class=" col-12 col-md-6 m-auto" >
         <h3> <span class="text-muted">Prototyping features</span></h3>
         <h2 class="featurette-heading">Prototype <br> while you <br> design, and <br> vice versa  </h2>
         <p class="lead">Bring your ideas to life in animated prototypes. Test <br> concepts earlier and more often. Create a better <br> blueprint for development.</p>
       </div>
-      <div class="col-md-5">
-        <img src="images/image_1.png" alt="image_1" style="width: 500px; height: 500px;">
-
+      <div class="col-12 col-md-5 m-auto">
+        <img src="images/image_1.png" alt="image_1" id="image1">
       </div>
+    </div>
     </section>
  
-               <hr class="featurette-divider">
+               
 
-                <!-- block 2 avec video1 -->
-
-    <section class="row featurette">
-      <div class="col-md-7">
+        <!-- block 2 avec video1 -->
+  <section id="block2">
+    <div class="row container  m-auto">
+      <div class=" col-12 col-md-6 m-auto">
          
         <h2 class="featurette-heading">Create prototypes that <br> feel like the real <br> experience </h2>
         <p class="lead">Turn your static design files into an interactive <br> experience—no coding required.</p>
@@ -100,16 +101,16 @@
       </div>
       <div class="col-md-5 order-md-1">
         <iframe src="images/video_1.mp4" frameborder="0"></iframe>
-
       </div>
-    </section>
+    </div>
+  </section>
  
     <hr class="featurette-divider">
 
 
      <!-- block 3 avec video2 -->
-
-    <section class="row featurette">
+    <section  id="block3">
+      <div class="row container  m-auto"> 
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Show, don’t tell your <br> interaction vision</h2>
         <p class="lead">Take the guesswork out of development by spelling out <br> the interaction details you envision.</p>
@@ -123,25 +124,24 @@
         <iframe src="images/video_2.mp4" frameborder="0"></iframe>
 
       </div>
+    </div>
     </section>       
     
-    <hr class="featurette-divider">
-    
-
-                <!-- block 4 text-->
-       <section>
+     
+        <!-- block 4   text-->
+       <section id="block4">
+         <section class="row container  m-auto">
          <h1>We run a really fast design <br> process. We’re constantly <br> building, testing, and iterating. <br> Being able to pull together a <br> prototype in Figma so quickly <br> and easily is massive for us.</h1>
          <p> Beth Horne, Senior User Researcher at Bulb</p>
+         </section>
        </section>
 
-       <hr class="featurette-divider">
+   
 
-                 <!-- block 5 avec video3 -->
-
-
-         <section class="row featurette">
+        <!-- block 5 avec video3 -->
+         <section  id="block5">
+           <div  class="row container  m-auto">
           <div class="col-md-7">
-             
             <h2 class="featurette-heading">Do it all in one single tool</h2>
             <p class="lead">No more jumping between tools. Design, prototype, <br> share, and collect feedback all in Figma.</p>
             <ul>
@@ -152,14 +152,15 @@
           </div>
           <div class="col-md-5 order-md-1">
             <iframe src="images/video_3.mp4" frameborder="0"></iframe>
-    
           </div>
+        </div>
          </section>
      
         <hr class="featurette-divider">
     
-   <!--block 6 text -->
-         <section>
+        <!--block 6 text -->
+         <section id="block6">
+          <section class="row container  m-auto">
 
           <h1>Other ways to use Figma prototypes</h1>
           <div class="fs-2 mb-3">
@@ -183,17 +184,19 @@
             <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"></path></svg>
             Integrate with third-party <br> prototyping tools
           </div>
-         </section>
+           </section> 
+        </section>
 
          <hr class="featurette-divider">
 
 
 <!--block 7 ---- trois images-->
 
- <section>
+ <section id="block7">
   <main class="main pt-4">
     <div class="container">
       <div class="row">
+        <h1>See how Figma can help you design from <br> start to finish</h1>
         <div class="col-md-3">
           <!--image 1-->
           <article class="card mb-4">
@@ -208,7 +211,7 @@
           </article><!-- /.card -->
         </div>
         <!--image 2-->
-        <div class="col-md-3">
+        <div class="col-md-3 m-auto">
  
           <article class="card mb-4">
             <a href="https://www.figma.com/design-systems/">
@@ -224,7 +227,7 @@
 
         
           <!-- image 3  -->
-        <div class="col-md-3">
+        <div class="col-md-3 m-auto">
           
           <article class="card mb-4">
             <a href="https://www.figma.com/collaboration/">
@@ -244,12 +247,11 @@
 
  <!--block 8 ---- réseau-->
 
- <footer class="bd-footer py-5 mt-5 bg-light">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-lg-3 mb-3">
+ <footer class="bd-footer py-5 mt-5 bg-light" id="block8">
+  <div class="container py-5 m-auto">
+    <div class="row   m-auto">
+      <div class="col-lg-3 mb-3 m-auto">
         <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
-           
           <span class="fs-5">Figma</span>
         </a>
         <ul class="list-unstyled">
@@ -263,7 +265,7 @@
           <li class="mb-2"><a href="/">Manage Cookies</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3 m-auto">
         <h5>Use Cases</h5>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="/">UI design</a></li>
@@ -276,7 +278,7 @@
           <li class="mb-2"><a href="https://blog.getbootstrap.com/">Remote design</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 mb-3">
+      <div class="col-6 col-lg-2 mb-3 m-auto">
         <h5>Explore</h5>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="/docs/5.0/getting-started/">Design features</a></li>
@@ -293,7 +295,7 @@
           <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">Contact</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 mb-3">
+      <div class="col-6 col-lg-2 mb-3 m-auto">
         <h5>Resources</h5>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="https://github.com/twbs/bootstrap">Blog</a></li>
@@ -311,7 +313,7 @@
           <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">Status</a></li>
         </ul>
       </div>
-      <div class="col-6 col-lg-2 mb-3">
+      <div class="col-6 col-lg-2 mb-3 m-auto">
         <h5>Compare</h5>
         <ul class="list-unstyled">
           <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Sketch</a></li>
@@ -328,7 +330,7 @@
   
 
 </footer>
-
+</div> 
 
 
 
