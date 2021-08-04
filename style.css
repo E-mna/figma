@@ -8,9 +8,8 @@ header{
  .dropdown:hover .dropdown-menu {
 display: block; }
 
-/* Mettre le logo a gauche*/
  
-
+ 
 
 
   
@@ -18,31 +17,52 @@ display: block; }
 #block1{
     background-color: #699bf7;
     padding: 70px 0px;
+   
 }
-#block2{
-    padding: 70px 0px;
-}
+#block2,
 #block3{
     padding: 70px 0px;
 }
+
 #block4{
     background-color: #699bf7;
     padding: 70px 0px;
+    padding-left: 30px;
+    text-align: center;
+    
 }
 #block5{
     padding: 70px 0px;
 }
 #block6{
-    padding: 70px 0px;
+    background-color: #699bf7;
+    padding: 70px 10px;
+}
+#smallblock6{
+    padding-top: 50px;
 }
 #block7{
     padding: 70px 0px;
+    text-align: center;
 }
 footer{
     padding: 80px 32px 112px;
 }
 
 #image1{
-    max-width: 100%;
-    
+    max-width: 100%;    
 }
+video {
+   height: auto;
+   max-width: 100%; 
+}
+ 
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+ 
+ 
+ 
